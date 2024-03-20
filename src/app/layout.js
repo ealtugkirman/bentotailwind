@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
+import { Darker_Grotesque } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Layout/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const darker = Darker_Grotesque({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={darker.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

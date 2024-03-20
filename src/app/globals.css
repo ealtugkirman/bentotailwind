@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  .text-gradient {
+    @apply text-transparent bg-gradient-to-r from-blue-900 bg-clip-text via-red-900 to-black text-5xl;
+  }
+}
