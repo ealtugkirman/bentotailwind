@@ -11,12 +11,12 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-first z-10 sticky top-0 border-b border-second">
+    <header className="bg-first z-40 sticky top-0 ">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* <!-- lg+ --> */}
-        <nav className="flex items-center justify-between h-16 lg:h-24">
+        <nav className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <a href="#" title="" className="flex">
+            <a href="/" title="" className="flex">
               <Image className="w-auto h-8 lg:h-12" src={Logo} alt="" />
             </a>
           </div>
@@ -46,17 +46,17 @@ const Navbar = () => {
 
           <div className="hidden md:flex md:items-center md:space-x-10">
             <a
-              href="#"
+              href="/components"
               title=""
-              className="text-xl font-medium  text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
+              className="text-lg font-medium  text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
-              Features{" "}
+              Components{" "}
             </a>
 
             <a
               href="#"
               title=""
-              className="text-xl font-medium  text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
+              className="text-lg font-medium  text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
               Solutions{" "}
             </a>
@@ -64,15 +64,15 @@ const Navbar = () => {
             <a
               href="#"
               title=""
-              className="text-xl font-medium  text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
+              className="text-lg font-medium  text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
               Resources{" "}
             </a>
 
             <a
-              href="#"
+              href="/pricing"
               title=""
-              className="text-xl font-medium text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
+              className="text-lg font-medium text-white transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
               Pricing{" "}
             </a>

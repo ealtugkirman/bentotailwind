@@ -1,9 +1,9 @@
-import { Darker_Grotesque } from "next/font/google";
+import { Georama } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Layout/Navbar";
 
 
-const darker = Darker_Grotesque({ subsets: ["latin"] });
+const darker = Georama({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={darker.className}>
         <Navbar />
-        {children}
+        { children }
       </body>
     </html>
   );
