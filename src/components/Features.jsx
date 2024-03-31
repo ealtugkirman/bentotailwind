@@ -40,12 +40,12 @@ const Allah = () => {
               <p className="mt-2 text-3xl font-bold tracking-tight text-yellow-200 sm:text-4xl">
                 A better workflow
               </p>
-              <p className="mt-6 text-lg leading-8 text-light">
+              <p className="mt-6 text-lg leading-8 text-gray-300">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque, iste dolor
                 cupiditate blanditiis ratione.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-light lg:max-w-none">
+              <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-yellow-200">

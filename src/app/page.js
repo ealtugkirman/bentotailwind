@@ -2,7 +2,7 @@ import Allah from "@/components/Features";
 import { Hero } from "@/components/Hero";
 import Ideas from "@/components/Ideas";
 import Footer from "@/components/Layout/Footer";
-import MyComponentPreview from "@/components/SimpleBento/SimpleBento";
+import MyComponentPreview from "@/components/Grids/SimpleBento1/SimpleBento";
 export default function Home() {
   return (
     <main className="bg-first">

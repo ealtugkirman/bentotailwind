@@ -1,17 +1,17 @@
 import React from "react";
 import Sidebar from "./SideBar";
-import SimpleBento from "@/components/SimpleBento/SimpleBento";
-import SimpleBentoTwo from "@/components/SimpleBentoTwo/SimpleBentoTwo";
+import SimpleBento from "@/components/Grids/SimpleBento1/SimpleBento";
+import SimpleBento2 from "@/components/Grids/SimpleBento2/SimpleBento2";
 
 const page = () => {
   return (
     <div>
       <Sidebar />
-      <div className="flex">
+      <div className="flex bg-first">
         <div className="w-80 h-full flex "></div>
-        <div className="flex flex-col px-32 bg-white text-first w-screen" >
+        <div className="flex flex-col px-32 bg-first text-first w-screen" >
           <SimpleBento />
-          <SimpleBentoTwo />
+          <SimpleBento2 />
         </div>
       </div>
     </div>

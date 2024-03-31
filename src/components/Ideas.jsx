@@ -8,7 +8,7 @@ const HoverDevCards = () => {
         <h1 className="text-yellow-200 text-5xl font-semibold">
           Turn Your Ideas Ideas Into Reality
         </h1>
-        <p className="text-white px-48">
+        <p className="text-gray-300 px-48">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet iste
           assumenda molestias voluptate et blanditiis eligendi sequi similique
           cupiditate ipsa ratione, aperiam aliquam quisquam numquam officia
@@ -52,10 +52,10 @@ const Card = ({ title, subtitle, Icon, href }) => {
       <div className="absolute inset-0 bg-yellow-200 translate-y-[100%] group-hover:translate-y-[0%] transition-transform duration-300" />
       <Icon className="absolute z-10 -top-3 -right-16 text-9xl text-slate-100 group-hover:text-black group-hover:rotate-12 transition-transform duration-300" />
       {/* <Icon className="mb-2 text-2xl text-violet-600 group-hover:text-black transition-colors relative z-10 duration-300" /> */}
-      <h3 className="text-start pt-8 font-medium text-lg text-white group-hover:text-black relative z-10 duration-300">
+      <h3 className="text-start pt-8 font-medium text-lg text-gray-300 group-hover:text-black relative z-10 duration-300">
         {title}
       </h3>
-      <p className="text-start pt-4 text-sm text-white group-hover:text-black relative z-10 duration-300">
+      <p className="text-start pt-4 text-sm text-gray-300 group-hover:text-black relative z-10 duration-300">
         {subtitle}
       </p>
     </a>

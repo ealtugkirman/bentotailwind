@@ -1,13 +1,12 @@
 import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { tomorrowNightBright } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const BentoFirst = ({ component: Component, code }) => {
   return (
-    <div className=" w-full">
-      {/* Kod Parçacığı */}
+    <div className="w-full">
       <div className="h-96">
-        <SyntaxHighlighter language="jsx" style={oneDark}>
+        <SyntaxHighlighter language="javascript" style={tomorrowNightBright}>
           {code}
         </SyntaxHighlighter>
       </div>

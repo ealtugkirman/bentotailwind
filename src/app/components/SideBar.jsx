@@ -29,21 +29,21 @@ const NavLink = ({ ...props }) => {
 
 // Title component
 const Title = ({ children }) => (
-    <h3 className='pb-3 px-4 font-medium text-gray-800 md:px-8'>
+    <h3 className='pb-3 px-4 font-medium text-yellow-200 md:px-8'>
         { children }
     </h3>
 );
 
 // Sections List
 const SectionsList = ({ items }) => (
-    <div className='text-gray-600 px-4 md:px-8'>
+    <div className='text-white px-4 md:px-8'>
         <ul>
             { items?.map((item, idx) => (
                 <li key={ idx }>
                     <NavLink
                         href={ item?.href }
-                        active='text-gray-900 border-indigo-600'
-                        className='block w-full py-2 px-4 border-l hover:border-indigo-600 hover:text-gray-900 duration-150'>
+                        active='text-white border-indigo-600'
+                        className='block w-full py-2 px-4 border-l hover:border-indigo-600 hover:text-white duration-150'>
                         { item?.name }
                     </NavLink>
                 </li>
@@ -85,8 +85,7 @@ const Sidebar = () => {
     return (
         <>
             <nav
-                className="fixed z-10 pb-20 bottom-20 top-20 left-0 w-full h-full border-r bg-white space-y-8 overflow-auto sm:w-80">
-          
+                className="fixed z-10 pb-20 bottom-20 top-32 left-0 w-full h-full border-r bg-first space-y-8 overflow-auto sm:w-80">
                 <div className='text-[0.9rem] space-y-6'>
                     <>
                         <div>
