@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Logo from "../../../public/Logo/1.png";
+import Logo from "../../../public/Logo/2.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,10 +14,10 @@ const Navbar = () => {
     <header className="bg-first z-40 sticky top-0 ">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* <!-- lg+ --> */}
-        <nav className="flex items-center justify-between h-20">
+        <nav className="flex items-center justify-between h-24">
           <div className="flex-shrink-0">
             <a href="/" title="" className="flex">
-              <Image className="w-auto h-8 lg:h-12" src={Logo} alt="" />
+              <Image className="w-auto h-8 lg:h-20" src={Logo} alt="" />
             </a>
           </div>
 
