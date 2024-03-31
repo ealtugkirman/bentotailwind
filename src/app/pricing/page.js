@@ -16,7 +16,7 @@ export default () => {
         },
         {
             name: "Premium Grids",
-            price: "$29",
+            price: "$29 / forever",
             features: [
                 "Copy and Paste",
                 "Beautifully Designed Premium Grids",
@@ -52,13 +52,13 @@ export default () => {
         <section className="py-14 bg-first">
             <div className="max-w-screen-xl mx-auto px-4 text-gray-200 md:px-8">
                 <div className="relative max-w-xl mx-auto sm:text-center">
-                    <h3 className="text-gray-300 text-3xl font-semibold sm:text-4xl">
+                    <h3 className="text-gray-300 text-4xl font-semibold sm:text-4xl">
                         Pricing
                     </h3>
                     <div className="mt-3 max-w-xl">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                            efficitur consequat nunc.
+                        <p className="font-semibold text-2xl" > 
+                            Buy once, use forever.
+
                         </p>
                     </div>
                 </div>

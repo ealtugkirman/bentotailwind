@@ -223,7 +223,7 @@ const PrivacyPolicy = () => {
           contain personal information. Prior to posting a testimonial, we will
           obtain your consent to use your name and the content of the
           testimonial. If you wish to update, or delete your testimonial, please
-          contact us at https://flowbite.com/contact/ and be sure to include
+          contact us at https://bentotailwind.com/contact/ and be sure to include
           your name, testimonial location, and contact information.
           <br />
           <br />

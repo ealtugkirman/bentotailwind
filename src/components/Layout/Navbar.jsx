@@ -60,16 +60,7 @@ const Navbar = () => {
               {" "}
               Blog{" "}
             </a>
-
-            <a
-              href="https://www.digitalvoyage.agency/"
-              title=""
-              className="text-md    transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
-              {" "}
-              Agency{" "}
-            </a>
-
-            <a
+<a
               href="/pricing"
               title=""
               className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
@@ -82,6 +73,13 @@ const Navbar = () => {
               className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
               Privacy Policy{" "}
+            </a>
+               <a
+              href="/contact"
+              title=""
+              className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
+              {" "}
+              Contact{" "}
             </a>
           </div>
           <div className="min-h-[200px] hidden md:flex space-x-4 items-center justify-center">

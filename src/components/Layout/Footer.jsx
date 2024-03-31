@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../../../public/Logo/1.png";
+import Logo from "../../../public/Logo/2.png";
 
 export default () => {
   const footerNavs = [
@@ -21,8 +21,8 @@ export default () => {
     },
   ];
   return (
-    <footer className="pt-10">
-      <div className="max-w-screen-xl h-80  bg-first mx-auto px-4 text-white md:px-8">
+    <footer className="pt-10 mt-12 bg-first">
+      <div className="max-w-screen-xl h-80   mx-auto px-4 text-white md:px-8">
         <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
           <Image src={Logo} className="w-32 sm:mx-auto" />
           <p>
