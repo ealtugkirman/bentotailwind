@@ -1,7 +1,7 @@
 export default () => {
   return (
     <section className="relative overflow-hidden py-28 px-4 bg-first md:px-8">
-      <div className="w-full h-full rounded-full bg-gradient-to-r from-[#58AEF1] to-pink-500 absolute -top-12 -right-14 blur-2xl opacity-10"></div>
+      <div className="w-full h-full rounded-full bg-gradient-to-b from-first to-pink-500 absolute -top-12 -right-14 blur-2xl opacity-10"></div>
       <div className="max-w-xl mx-auto text-center relative">
         <div className="py-4">
           <h3 className="text-3xl text-yellow-200 font-semibold md:text-4xl">

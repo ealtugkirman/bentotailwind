@@ -12,7 +12,8 @@
 # next.js
 /.next/
 /out/
-
+.env
+.firebase.config.js
 # production
 /build
 
@@ -27,6 +28,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel

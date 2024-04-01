@@ -12,19 +12,19 @@ const features = [
   {
     name: "Modular",
     description:
-      "eamlessly integrate Bento Grids and TailwindCSS components into your projects with our intuitive interface. With easy-to-use features, you can quickly incorporate responsive layouts and stylish UI elements, enhancing the visual appeal and functionality of your applications. Experience effortless integration and elevate your development process with our library.",
+      "Seamlessly integrate Bento Grids and TailwindCSS components into your projects with our intuitive interface. ",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "SSL certificates.",
+    name: "MIT License",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
+      "You can use all components as commercal and personal",
     icon: LockClosedIcon,
   },
   {
-    name: "Database backups.",
+    name: "Forever Free",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "You can use, customize, copy and duplicate all free componenents. Forever. ",
     icon: ServerIcon,
   },
 ];
