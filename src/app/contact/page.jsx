@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
 import ContactButton from "../../components/ui/ContactButton";
 import Link from "next/link";
-import Footer from "@/components/Layout/Footer";
+import Footer from "../../components/Layout/Footer.jsx";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar from "./SideBar";
-import SimpleBento from "@/components/Grids/SimpleBento1/SimpleBento";
-import SimpleBento2 from "@/components/Grids/SimpleBento2/SimpleBento2";
+import SimpleBento from "../../components/Grids/SimpleBento1/SimpleBento";
+import SimpleBento2 from "../../components/Grids/SimpleBento2/SimpleBento2";
 
 const page = () => {
   return (

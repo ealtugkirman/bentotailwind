@@ -1,6 +1,6 @@
 // components/PrivacyPolicy.js
 
-import Footer from "@/components/Layout/Footer";
+import Footer from "../../components/Layout/Footer.jsx";
 
 const PrivacyPolicy = () => {
   return (

@@ -1,4 +1,4 @@
-import Footer from "@/components/Layout/Footer";
+import Footer from "../../components/Layout/Footer.jsx";
 
 export default () => {
     const plans = [
