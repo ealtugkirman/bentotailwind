@@ -37,3 +37,9 @@ body {
     @apply text-transparent bg-gradient-to-r from-blue-900 bg-clip-text via-red-900 to-black text-5xl;
   }
 }
+
+
+.animate-scrolling {
+  display: inline-block;
+  animation: scrolling 10s linear infinite;
+}

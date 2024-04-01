@@ -1,6 +1,7 @@
 import { Georama, Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Layout/Navbar";
+import Duyuru from "../components/ui/Duyuru";
 
 
 const darker = Georama({ subsets: ["latin"] });
@@ -15,7 +16,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={jos.className}>
+      <body className={ jos.className }>
+        <Duyuru/>
         <Navbar />
         { children }
       </body>

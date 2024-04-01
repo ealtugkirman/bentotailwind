@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../public/Logo/2.png";
+import Modal from "../ui/Modal";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,12 +12,12 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-first z-40 sticky top-0 ">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <header className="bg-first z-40 sticky top-6 ">
+      <div className="px-24">
         {/* <!-- lg+ --> */}
-        <nav className="flex items-center justify-between h-24">
+        <nav className="flex items-center justify-center h-24">
           <div className="flex-shrink-0">
-            <a href="/" title="" className="flex">
+            <a href="/" title="bentotailwind.com" className="flex">
               <Image className="w-auto h-8 lg:h-20" src={Logo} alt="" />
             </a>
           </div>
@@ -44,7 +45,7 @@ const Navbar = () => {
             </svg>
           </button>
 
-          <div className="hidden text-gray-300 md:flex md:items-center md:space-x-10">
+          <div className="hidden  text-gray-300 md:justify-center md:mx-auto  md:flex md:items-center md:space-x-10">
             <a
               href="/components"
               title=""
@@ -52,7 +53,6 @@ const Navbar = () => {
               {" "}
               Components{" "}
             </a>
-
             <a
               href="/blog"
               title=""
@@ -60,21 +60,21 @@ const Navbar = () => {
               {" "}
               Blog{" "}
             </a>
-<a
+            <a
               href="/pricing"
               title=""
               className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
               Pricing{" "}
             </a>
-              <a
+            <a
               href="/privacypolicy"
               title=""
               className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
               {" "}
               Privacy Policy{" "}
             </a>
-               <a
+            <a
               href="/contact"
               title=""
               className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
@@ -82,19 +82,20 @@ const Navbar = () => {
               Contact{" "}
             </a>
           </div>
-          <div className="min-h-[200px] hidden md:flex space-x-4 items-center justify-center">
+          <div className="hidden md:flex space-x-4 items-center justify-center">
             <button className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
               Sign In
             </button>
-            <button className="px-6 py-2 font-bold bg-yellow-200 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
+            <Modal />
+            {/* <button className="px-6 py-2 font-bold bg-yellow-200 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
               Sign Up
-            </button>
+            </button> */}
           </div>
         </nav>
 
         {/* <!-- xs to lg --> */}
         {isMobileMenuOpen && (
-          <nav className="min-h-screen px-4 py-10 text-center bg-first md:hidden">
+          <nav className="min-h-screen py-10 text-center bg-first md:hidden">
             <nav className="flex flex-col items-center mt-10 space-y-2">
               <a
                 href="#"
