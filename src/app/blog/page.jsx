@@ -3,6 +3,7 @@ import { HeroPost } from "../_components/hero-post";
 import { Intro } from "../_components/intro";
 import { MoreStories } from "../_components/more-stories";
 import { getAllPosts } from "../../lib/api";
+import Footer from "../../components/Layout/Footer";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -24,7 +25,8 @@ export default function Index() {
           excerpt={heroPost.excerpt}
         />
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-      </Container>
+          </Container>
+          <Footer />
     </main>
   );
 }

@@ -8,6 +8,7 @@ import Container from "../../_components/container";
 import Header from "../../_components/header";
 import { PostBody } from "../../_components/post-body";
 import { PostHeader } from "../../_components/post-header";
+import Footer from "../../../components/Layout/Footer";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -23,7 +24,7 @@ export default async function Post({ params }: Params) {
       {/* <Alert preview={post.preview} /> */}
       <Container>
         <Header />
-        <article className="pb-32">
+        <article className="pb-24">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
@@ -33,6 +34,7 @@ export default async function Post({ params }: Params) {
           <PostBody content={content} />
         </article>
       </Container>
+      <Footer />
     </main>
   );
 }
