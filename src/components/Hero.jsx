@@ -1,5 +1,5 @@
 import Image from "next/image";
-import laptop from "../../public/laptop.png"
+import laptop from "../../public/laptop.png";
 
 export const Hero = () => {
   return (
@@ -23,14 +23,10 @@ export const Hero = () => {
               Bento Grids {""}
               <br className="hidden md:block" />
               and{" "}
-              <span className="inline-block text-yellow-200">
-                Tailwind Css
-              </span>
+              <span className="inline-block text-yellow-200">Tailwind Css</span>
             </h2>
-            <p className="text-4xl font-semibold md:text-lg">
-              Do you love Bento Grids and Tailwind Css?
-              <br />
-              You can use Bento Grids with Tailwind Css with 2 clicks{" "}
+            <p className="text-xl font-light">
+              Elevate Your UI Development with BentoTailwind.com
             </p>
           </div>
         </div>

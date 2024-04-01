@@ -1,4 +1,6 @@
 import React from "react";
+import WireFrame from "../../public/bentoexample.jpg";
+import Image from "next/image";
 
 import {
   CloudArrowUpIcon,
@@ -8,9 +10,9 @@ import {
 
 const features = [
   {
-    name: "Push to deploy.",
+    name: "Modular",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "eamlessly integrate Bento Grids and TailwindCSS components into your projects with our intuitive interface. With easy-to-use features, you can quickly incorporate responsive layouts and stylish UI elements, enhancing the visual appeal and functionality of your applications. Experience effortless integration and elevate your development process with our library.",
     icon: CloudArrowUpIcon,
   },
   {
@@ -34,16 +36,16 @@ const Allah = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-yellow-200">
-                Deploy faster
+              <h2 className="text-2xl font-semibold leading-7 text-yellow-200">
+                Bento Grids
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-yellow-200 sm:text-4xl">
-                A better workflow
+                never will be the same{" "}
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                You can use dozens of stylish bento grid with just one click
+                with tailwind. You don't need to worry about creating bento
+                grids and make them stylish.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-300 lg:max-w-none">
                 {features.map((feature) => (
@@ -61,9 +63,9 @@ const Allah = () => {
               </dl>
             </div>
           </div>
-          <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
-            alt="Product screenshot"
+          <Image
+            src={WireFrame}
+            alt="BentoTailwind.css"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
             height={1442}

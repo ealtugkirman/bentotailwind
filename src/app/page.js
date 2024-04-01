@@ -1,8 +1,9 @@
-import Allah from "@/components/Features";
-import { Hero } from "@/components/Hero";
-import Ideas from "@/components/Ideas";
-import Footer from "@/components/Layout/Footer";
-import MyComponentPreview from "@/components/Grids/SimpleBento1/SimpleBento";
+import Allah from "../components/Features";
+import { Hero } from "../components/Hero";
+import Ideas from "../components/Ideas";
+import Footer from "../components/Layout/Footer";
+import MyComponentPreview from "../components/Grids/SimpleBento1/SimpleBento";
+import Cta from "../components/Cta";
 export default function Home() {
   return (
     <main className="bg-first">
@@ -12,6 +13,7 @@ export default function Home() {
       <div className="px-32 pt-12" >
         <MyComponentPreview />
       </div>{ " " }
+      <Cta />
       <Footer />
     </main>
   );

@@ -4,24 +4,20 @@ import Logo from "../../../public/Logo/2.png";
 export default () => {
   const footerNavs = [
     {
-      href: "javascript:void()",
+      href: "/terms",
       name: "Terms",
     },
     {
-      href: "javascript:void()",
-      name: "License",
+      href: "/privacypolicy",
+      name: "Privacy Policy",
     },
-    {
-      href: "javascript:void()",
-      name: "Privacy",
-    },
-    {
-      href: "javascript:void()",
-      name: "About us",
-    },
+    // {
+    //   href: "/refund",p
+    //   name: "Refund Policy",
+    // },
   ];
   return (
-    <footer className="pt-10 mt-12 bg-first">
+    <footer className="py-10 my-12 bg-first">
       <div className="max-w-screen-xl h-80   mx-auto px-4 text-white md:px-8">
         <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
           <Image src={Logo} className="w-32 sm:mx-auto" />
