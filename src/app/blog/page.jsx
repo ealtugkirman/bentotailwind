@@ -13,7 +13,7 @@ export default function Index() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <main className="bg-first" >
+    <main className="bg-first md:px-12" >
       <Container>
         <Intro />
         <HeroPost
