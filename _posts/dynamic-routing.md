@@ -1,10 +1,10 @@
 ---
-title: "Dynamic Routing and Static Generation"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "Building Responsive Bento Grids with React and Tailwind CSS"
+excerpt: "Bento boxes bring order to delicious chaos, and bento grids bring the same magic to web design.  These flexible layouts are perfect for showcasing collections of content, and with React and Tailwind CSS, creating them becomes a delightful experience."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2024-04-01T05:35:07.322Z"
 author:
-  name: JJ Kasper
+  name: E. Altug Kırman
   picture: "/assets/blog/authors/jj.jpeg"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
