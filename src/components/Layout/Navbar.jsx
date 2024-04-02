@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../public/Logo/2.png";
 import Modal from "../ui/Modal";
-import SignUpModal from "../ui/SignUpModal";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -92,7 +91,6 @@ const Navbar = () => {
               Sign Up
             </button> */}
           </div>
-            <SignUpModal />
         </nav>
 
         {/* <!-- xs to lg --> */}
