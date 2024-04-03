@@ -18,7 +18,7 @@ export default () => {
             See All Components
           </a>
           <a
-            href="pricing"
+            href="/pricing"
             className="block w-full mt-2 py-2.5 px-8 text-first hover:text-white bg-yellow-200 rounded-md duration-150 hover:bg-second sm:w-auto">
             Get Started
           </a>
