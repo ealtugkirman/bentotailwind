@@ -17,7 +17,7 @@ export default () => {
     // },
   ];
   return (
-    <footer className="py-10 my-12 bg-first">
+    <footer className="py-10 bg-first">
       <div className="max-w-screen-xl h-80   mx-auto px-4 text-white md:px-8">
         <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
           <Image src={Logo} className="w-32 sm:mx-auto" />

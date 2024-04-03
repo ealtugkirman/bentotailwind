@@ -24,7 +24,7 @@ export default async function Post({ params }: Params) {
       {/* <Alert preview={post.preview} /> */}
       <Container>
         <Header />
-        <article className="pb-24 md:px-12">
+        <article className="pb-24 bg-first md:px-12">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
