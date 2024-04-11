@@ -1,7 +1,7 @@
 // please update required information
 const siteMetadata = {
     title: "BentoTailwind.com",
-    author: "BentoTailwind.com",
+    author: "DigitalVoyage.agency",
     headerTitle: "BentoTailwind.com",
     // name: "google-adsense-account",
     // content: "ca-pub-8265654758847402",
@@ -13,7 +13,7 @@ const siteMetadata = {
     siteUrl: "https://BentoTailwind.com/", // your website URL
     siteLogo: "/public/Logo/2.png",
     // socialBanner: "/social-banner.png", // add social banner in the public folder
-    // email: 'codebucks27@gmail.com',
+     email: 'contact@digitalvoyage.agency',
     // github: 'https://github.com/codebucks27',
     // twitter: "https://twitter.com/AltcoinVoyage",
     // facebook: 'https://facebook.com',

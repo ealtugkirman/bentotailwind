@@ -1,7 +1,7 @@
 ---
 title: "Should your landing page use a bento grid?"
 excerpt: "Bento grids. These visually appealing layouts, inspired by the compartmentalized lunch boxes of Japanese culture, have been popping up all over the web. But are they just a fleeting trend, or can they be a powerful tool for your landing page? Let's dig in."
-coverImage: "/assets/blog/hello-world/cover.jpg"
+coverImage: "/assets/blog/should-your-landing-page-use-a-bento-grid/should-your-landing-page-use-a-bento-grid.jpg"
 date: "2024-04-01T05:35:07.322Z"
 author:
   name: E. Altug Kırman
@@ -39,6 +39,12 @@ However, bento grids aren't without their drawbacks:
 * **Cognitive overload:**  Too much information in a small space can overwhelm users.
 * **Scanning struggles:**  With minimal visual hierarchy, users might struggle to prioritize information at a glance.
 * **Hicks' Law in action:**  This principle states that the number of choices directly impacts decision-making time. With multiple bento boxes vying for attention, users might take longer to understand and engage with your landing page.
+<!-- 
+<Image width={500} height={500} alt="My dog" src="../public/assets/blog/should-your-landing-page-use-a-bento-grid/bento-grids-for-your-landing-page.jpg" /> -->
+
+![how to create bento grids for your landing page](https://global-uploads.webflow.com/5e9dc792e1210c5325f7ebbc/64a860790546992621ac1a63_blog%20bento.png)
+
+
 
 ## Bento Grid Success: A Recipe for Usability
 
