@@ -13,13 +13,13 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-first z-40 sticky top-6 ">
+    <header className="md:bg-first z-40 sticky top-6 ">
       <div className="px-4 md:px-24">
         {/* <!-- lg+ --> */}
-        <nav className="flex items-center justify-between md:justify-center h-24">
+        <nav className="flex items-center justify-between md:justify-center md:h-24">
           <div className="flex-shrink-0">
-            <a href="/" title="bentotailwind.com" className="flex">
-              <Image className="w-auto h-12 lg:h-20" src={Logo} alt="" />
+            <a href="/" title="bentotailwind.com" className=" hidden md:flex">
+              <Image className="w-auto md:h-12 lg:h-20" src={Logo} alt="" />
             </a>
           </div>
 
@@ -96,7 +96,7 @@ const Navbar = () => {
 
         {/* <!-- xs to lg --> */}
         {isMobileMenuOpen && (
-          <nav className="min-h-screen py-10 text-center bg-first md:hidden">
+          <nav className="min-h-screen  text-center bg-first md:hidden">
             <nav className="flex flex-col items-center mt-10 space-y-2">
               <a
                 href="/components"
