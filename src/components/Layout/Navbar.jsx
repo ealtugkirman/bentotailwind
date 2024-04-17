@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../public/Logo/2.png";
 import Modal from "../ui/Modal";
+import DvaLogo from "../../../public/Logo/1.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -13,12 +14,12 @@ const Navbar = () => {
 
   return (
     <header className="bg-first z-40 sticky top-6 ">
-      <div className="px-24">
+      <div className="px-4 md:px-24">
         {/* <!-- lg+ --> */}
-        <nav className="flex items-center justify-center h-24">
+        <nav className="flex items-center justify-between md:justify-center h-24">
           <div className="flex-shrink-0">
             <a href="/" title="bentotailwind.com" className="flex">
-              <Image className="w-auto h-8 lg:h-20" src={Logo} alt="" />
+              <Image className="w-auto h-12 lg:h-20" src={Logo} alt="" />
             </a>
           </div>
 
@@ -98,36 +99,75 @@ const Navbar = () => {
           <nav className="min-h-screen py-10 text-center bg-first md:hidden">
             <nav className="flex flex-col items-center mt-10 space-y-2">
               <a
-                href="#"
+                href="/components"
                 title=""
                 className="py-2     transition-all duration-200 focus:text-opacity-70">
                 {" "}
-                Features{" "}
+                Components{" "}
               </a>
 
               <a
-                href="#"
+                href="/blog"
                 title=""
                 className="py-2     transition-all duration-200 focus:text-opacity-70">
                 {" "}
-                Solutions{" "}
+                Blog{" "}
               </a>
 
               <a
-                href="#"
-                title=""
-                className="py-2     transition-all duration-200 focus:text-opacity-70">
-                {" "}
-                Resources{" "}
-              </a>
-
-              <a
-                href="#"
+                href="/pricing"
                 title=""
                 className="py-2     transition-all duration-200 focus:text-opacity-70">
                 {" "}
                 Pricing{" "}
               </a>
+
+              <a
+                href="/privacypolicy"
+                title=""
+                className="py-2     transition-all duration-200 focus:text-opacity-70">
+                {" "}
+                Privacy Policy{" "}
+              </a>
+
+              <button>
+                <div className="flex flex-row space-x-6 justify-center items-center ">
+                  <button className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
+                    Sign In
+                  </button>
+                  <Modal />
+                </div>
+              </button>
+
+              <div>
+                <div className="items-center flex-col py-12 justify-center mx-12 flex ">
+                  <p>
+                    BentoTailwind.com created, published and developed by
+                    <a
+                      className="cursor-pointer"
+                      href="https://www.digitalvoyage.agency/">
+                      {" "}
+                      digitalvoyage.agency{" "}
+                    </a>
+                    for developers who love to use Bento Grids.
+                  </p>{" "}
+                  <a className="cursor-pointer" href="https://www.digitalvoyage.agency/">
+                    <Image
+                      width={200}
+                      height={200}
+                      alt="digitalvoyage.agency Logo"
+                      src={DvaLogo}
+                    />
+                  </a>
+                  <a
+                    href="/contact"
+                    title=""
+                    className="py-10     transition-all duration-200 focus:text-opacity-70">
+                    {" "}
+                    Contact{" "}
+                  </a>
+                </div>
+              </div>
             </nav>
           </nav>
         )}

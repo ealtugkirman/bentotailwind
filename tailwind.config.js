@@ -14,6 +14,7 @@ module.exports = {
         second: "#30004a",
         content: "#546aff",
         firstlight: "#001287",
+        darkgradient: "#010839",
         yamur: "#8a98fe",
       },
     },
