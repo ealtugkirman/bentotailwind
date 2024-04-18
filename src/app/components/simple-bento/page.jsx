@@ -3,13 +3,12 @@ import React, { useState } from "react";
 import Sidebar from "../_components/SideBar";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { tomorrowNightBright } from "react-syntax-highlighter/dist/esm/styles/hljs";
-import { FaEye, FaRegCopy } from "react-icons/fa";
-import { IoCodeSlash } from "react-icons/io5";
+import { FaRegCopy } from "react-icons/fa";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-export const CodePreview = ({ component: Component, code }) => {
+const CodePreview = ({ component: Component, code }) => {
   return (
     <div className="w-full">
       <div className="h-96">
@@ -21,7 +20,7 @@ export const CodePreview = ({ component: Component, code }) => {
   );
 };
 
-export const SimpleBentoVisual = () => {
+const SimpleBentoVisual = () => {
   return (
     <div className="grid h-96 grid-cols-5 gap-2  grid-rows-3">
       <div className=" col-span-2 row-span-2 bg-blue-500" />
