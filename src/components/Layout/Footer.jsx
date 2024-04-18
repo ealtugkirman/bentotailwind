@@ -17,7 +17,7 @@ export default () => {
     // },
   ];
   return (
-    <footer className=" ">
+    <footer className="pt-20 ">
       <div className="max-w-screen-xl  md:h-80 mx-auto px-4 text-white md:px-8">
         <div className="space-y-3 md:space-y-6 sm:max-w-md sm:mx-auto text-center">
           <Image src={Logo} className="w-24 md:w-32 mx-auto" />

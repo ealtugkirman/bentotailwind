@@ -63,8 +63,7 @@ const Features = () => {
                   Simply Copy & Paste
                 </h3>
                 <p className="mt-1 md:mt-3 mx-4 md:text-base text-sm text-gray-500">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint.
+                  You only need to copy & paste into your componenents to use grids.
                 </p>
               </div>
             </div>
@@ -88,8 +87,7 @@ const Features = () => {
                   Easy to Customize
                 </h3>
                 <p className="mt-1 md:mt-3 mx-4 md:text-base text-sm text-gray-500">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint.
+                  Everything inside the gird can be customized
                 </p>
               </div>
             </div>
@@ -113,8 +111,7 @@ const Features = () => {
                   Made with TailwindCSS
                 </h3>
                 <p className="mt-1 md:mt-3 mx-4 md:text-base text-sm text-gray-500">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint.
+                  All grids are made with TailwindCss
                 </p>
               </div>
             </div>

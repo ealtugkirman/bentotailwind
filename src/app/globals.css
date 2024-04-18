@@ -39,6 +39,9 @@ body {
   .text-lightgradient {
     @apply text-transparent bg-gradient-to-r from-blue-200 bg-clip-text via-red-300 to-yellow-500 text-5xl;
   }
+  .bg-gradient-dark {
+    @apply bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-darkgradient
+  }
 }
 
 
