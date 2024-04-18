@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image"
+import Image from "next/image";
 import Logo from "../../../public/Logo/2.png";
 import Modal from "../ui/Modal";
 import DvaLogo from "../../../public/Logo/1.png";
@@ -129,7 +129,13 @@ const Navbar = () => {
                 {" "}
                 Privacy Policy{" "}
               </a>
-
+              <a
+                href="/contact"
+                title=""
+                className="py-10     transition-all duration-200 focus:text-opacity-70">
+                {" "}
+                Contact{" "}
+              </a>
               <button>
                 <div className="flex flex-row space-x-6 justify-center items-center ">
                   <button className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
@@ -151,20 +157,15 @@ const Navbar = () => {
                     </a>
                     for developers who love to use Bento Grids.
                   </p>{" "}
-                  <a className="cursor-pointer" href="https://www.digitalvoyage.agency/">
+                  <a
+                    className="cursor-pointer"
+                    href="https://www.digitalvoyage.agency/">
                     <Image
                       width={200}
                       height={200}
                       alt="digitalvoyage.agency Logo"
                       src={DvaLogo}
                     />
-                  </a>
-                  <a
-                    href="/contact"
-                    title=""
-                    className="py-10     transition-all duration-200 focus:text-opacity-70">
-                    {" "}
-                    Contact{" "}
                   </a>
                 </div>
               </div>
