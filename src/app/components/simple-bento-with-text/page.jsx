@@ -5,10 +5,9 @@ import { tomorrowNightBright } from "react-syntax-highlighter/dist/esm/styles/hl
 import { FaRegCopy } from "react-icons/fa";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
-import { CodePreview } from "../simple-bento/page";
 import "react-toastify/dist/ReactToastify.css";
 
-export const CodePreview = ({ component: Component, code }) => {
+ const CodePreview = ({ component: Component, code }) => {
   return (
     <div className="w-full">
       <div className="h-96">
@@ -20,7 +19,7 @@ export const CodePreview = ({ component: Component, code }) => {
   );
 };
 
-export const SimpleBentoWithTextVisual = () => {
+ const SimpleBentoWithTextVisual = () => {
   return (
     <div className="grid h-96 gap-x-4 gap-y-0 grid-cols-3 grid-rows-3">
       <div className="col-span-2 bg-yellow-900 rounded-md  row-span-1"></div>
@@ -65,56 +64,6 @@ export default MyComponent;
         <Sidebar />
       </div>{" "}
       <div className="hidden lg:block lg:3/4 w-4/5 px-24 bg-first">
-        {/* <div className="w-full py-12 flex flex-col">
-          <ToastContainer
-            position="top-right"
-            autoClose={3100}
-            hideProgressBar={false}
-            newestOnTop={false}
-            closeOnClick={false}
-            rtl={false}
-            pauseOnFocusLoss
-            draggable
-            pauseOnHover
-            theme="colored"
-          />
-          <div className="flex justify-between items-center mb-4">
-            <p className="capitalize font-extrabold text-yellow-200 text-4xl">
-              SIMPLE BENTO GRID
-            </p>
-            <div className="flex flex-row">
-              <button
-                className={`px-6 mr-2 shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] flex w-32 items-center font-bold justify-center py-2 ${
-                  showCode ? "bg-second text-white" : "bg-yellow-200 text-first"
-                } `}
-                onClick={() => setShowCode(false)}>
-                Preview
-                <span className="text-2xl ml-2">
-                  <FaEye />
-                </span>
-              </button>
-              <button
-                className={`px-4 flex w-24  items-center shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] font-bold justify-center py-2 ${
-                  showCode ? "bg-yellow-200 text-first" : "bg-second text-white"
-                } `}
-                onClick={() => setShowCode(true)}>
-                Code{" "}
-                <span className="text-2xl ml-2">
-                  <IoCodeSlash />
-                </span>
-              </button>
-              <CopyToClipboard text={componentCode} onCopy={Copied}>
-                <button className="px-6 ml-2 shadow-[3px_3px_0px_black] bg-red-500 text-white hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] flex w-16 items-center font-bold justify-center py-2">
-                  <span className="text-2xl">
-                    <FaRegCopy />
-                  </span>
-                </button>
-              </CopyToClipboard>
-            </div>
-          </div>
-          {!showCode && <Bentov1 />}
-          {showCode && <CodePreview component={Bentov1} code={componentCode} />}
-        </div> */}
         <div className="w-full py-12 flex flex-col">
           <ToastContainer
             position="top-right"
