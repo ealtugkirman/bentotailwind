@@ -1,11 +1,11 @@
 "use client";
-import React, { useState } from "react";
 import Sidebar from "../_components/SideBar";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { tomorrowNightBright } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import { FaRegCopy } from "react-icons/fa";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
+import { CodePreview } from "../simple-bento/page";
 import "react-toastify/dist/ReactToastify.css";
 
 export const CodePreview = ({ component: Component, code }) => {
