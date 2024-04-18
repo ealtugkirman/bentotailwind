@@ -1,5 +1,5 @@
 import Image from "next/image";
-import laptop from "../../public/laptop.png";
+import laptop from "../../public/Macbook.png";
 
 export const Hero = () => {
   return (
@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="z-0 flex justify-center md:h-full  overflow-hidden lg:pt-24 lg:pb-16 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
         <Image
           src={laptop}
-          className="object-cover object-right w-4/5 md:w-full md:mr-12 h-auto lg:w-auto lg:h-full"
+          className="object-cover object-right w-3/5 md:w-full md:mr-12 h-auto lg:w-auto lg:h-full"
           alt=""
         />
       </div>
