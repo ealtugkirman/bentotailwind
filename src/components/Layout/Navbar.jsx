@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
+import Image from "next/image"
 import Logo from "../../../public/Logo/2.png";
 import Modal from "../ui/Modal";
 import DvaLogo from "../../../public/Logo/1.png";
@@ -26,7 +26,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={toggleMobileMenu}
-            className="inline-flex p-2  transition-all duration-200 rounded-md md:hidden focus:bg-gray-800 hover:bg-second">
+            className="inline-flex p-2 z-40 transition-all duration-200 rounded-md md:hidden focus:bg-gray-800 hover:bg-second">
             <svg
               className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -96,8 +96,8 @@ const Navbar = () => {
 
         {/* <!-- xs to lg --> */}
         {isMobileMenuOpen && (
-          <nav className="min-h-screen  text-center bg-first md:hidden">
-            <nav className="flex flex-col items-center mt-10 space-y-2">
+          <nav className="min-h-screen bg-black z-40 text-center  md:hidden">
+            <nav className="flex flex-col items-center space-y-2">
               <a
                 href="/components"
                 title=""

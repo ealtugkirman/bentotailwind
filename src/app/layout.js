@@ -7,7 +7,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 const darker = Georama({ subsets: ["latin"] });
 const jos = Josefin_Sans({ subsets: ["latin"] });
 
-const GOOGLEID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID
+const GOOGLEID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
 
 export const metadata = {
   title: "BentoTailwind.com",
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body className={jos.className}>
         <Duyuru />
         <Navbar />
-        {children}
+        <div>{children}</div>
       </body>
     </html>
   );
