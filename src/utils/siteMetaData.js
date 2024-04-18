@@ -7,7 +7,7 @@ const siteMetadata = {
     // content: "ca-pub-8265654758847402",
 
     description:
-        "Bento Grids is a UI Library based on Bento Grids, React and TailwindCss You can use dozens of stylish bento grid with just one click with tailwind.You don't need to worry about creating bento grids and make them stylish.",
+        "Beautiful & Responsive Grid Layouts with BentoTailwind. Effortlessly build stunning and responsive grid layouts using our production-ready Bento Grids component library for Tailwind CSS. Get started quickly and streamline your workflow with our reusable components.",
     language: "en",
     theme: "dark",
     siteUrl: "https://BentoTailwind.com/", // your website URL

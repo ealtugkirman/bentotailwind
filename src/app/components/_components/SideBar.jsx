@@ -85,7 +85,7 @@ const Sidebar = () => {
     return (
         <>
             <nav
-                className="fixed z-10 pb-20 bottom-20 top-32 left-0 w-full h-full border-r bg-first space-y-8 overflow-auto sm:w-80">
+                className="fixed hidden md:flex z-10 pb-20 bottom-20 top-32 left-0 w-full h-full border-r bg-first space-y-8 overflow-auto sm:w-80">
                 <div className='text-[0.9rem] space-y-6'>
                     <>
                         <div>
