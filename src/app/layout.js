@@ -15,19 +15,20 @@ const GOOGLEID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
 
 export const seo = {
   title: "BentoTailwind Component Library for Bento Grids",
-  description: "Beautiful & Responsive Grid Layouts with BentoTailwind. Effortlessly build stunning and responsive grid layouts using our production-ready Bento Grids component library for Tailwind CSS. Get started quickly and streamline your workflow with our reusable components..",
+  description:
+    "Beautiful & Responsive Grid Layouts with BentoTailwind. Effortlessly build stunning and responsive grid layouts using our production-ready Bento Grids component library for Tailwind CSS. Get started quickly and streamline your workflow with our reusable components..",
 };
-
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <div>
+      <html title="BentoTailwind Component Library for Bento Grids" lang="en" />
       <GoogleTagManager gtmId={GOOGLEID} />
       <body className={pop.className}>
         <Duyuru />
         <Navbar />
         <div>{children}</div>
       </body>
-    </html>
+    </div>
   );
 }

@@ -19,7 +19,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between md:justify-center md:h-24">
           <div className="flex-shrink-0">
             <a href="/" title="bentotailwind.com" className=" hidden md:flex">
-              <Image className="w-auto md:h-12 lg:h-20" src={Logo} alt="" />
+              <Image className="w-auto md:h-12 lg:h-20" src={Logo} alt="BentoTailwind.com Logo" />
             </a>
           </div>
 
