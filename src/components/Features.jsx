@@ -111,7 +111,7 @@ const Features = () => {
                   Made with TailwindCSS
                 </h3>
                 <p className="mt-1 md:mt-3 mx-4 md:text-base text-sm text-gray-500">
-                  All grids are made with TailwindCss
+                  All grids made with TailwindCss
                 </p>
               </div>
             </div>
