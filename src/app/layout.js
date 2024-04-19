@@ -1,7 +1,6 @@
 import { Georama, Josefin_Sans, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Layout/Navbar";
-import { GoogleTagManager } from "@next/third-parties/google";
 import siteMetadata from "../utils/siteMetaData"
 
 
@@ -45,13 +44,11 @@ export const metadata = {
   },
 };
 
-const GOOGLEID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
 
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId={GOOGLEID} />
       <body className={pop.className}>
         <Navbar />
         <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-red-500">WARNING!: Bento Tailwind library is not completed yet. This version is a prepublished version for development. </div>
