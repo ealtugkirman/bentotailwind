@@ -8,9 +8,9 @@ import Footer from "../../components/Layout/Footer";
 export default function Index() {
   const allPosts = getAllPosts();
 
-  const heroPost = allPosts[0];
+  const heroPost = allPosts[1];
 
-  const morePosts = allPosts.slice(1);
+  const morePosts = allPosts.slice(0);
 
   return (
     <main className="bg-first md:px-12" >

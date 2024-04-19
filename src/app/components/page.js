@@ -1,18 +1,16 @@
 import React from "react";
 import Sidebar from "./_components/SideBar";
-import SimpleBento from "../../components/Grids/SimpleBento1/SimpleBento";
-import SimpleBento2 from "../../components/Grids/SimpleBento2/SimpleBento2";
+import GridCardList from "./_components/GridCardList"
 
 const page = () => {
   return (
-    <div className="flex flex-row">
+    <div className="flex pt-24 flex-row">
       <div className="hidden lg:block lg:w-1/4 w-1/5" >
         <Sidebar />
       </div>
       <div className="hidden lg:block lg:3/4 w-4/5 bg-first">
         <div className="flex flex-col px-24 bg-first text-first">
-          <SimpleBento />
-          <SimpleBento2 />
+          <GridCardList />
         </div>
       </div>
     </div>
@@ -20,3 +18,4 @@ const page = () => {
 };
 
 export default page;
+

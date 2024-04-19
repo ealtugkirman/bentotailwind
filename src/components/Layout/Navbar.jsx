@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../public/Logo/2.png";
-import Modal from "../ui/Modal";
 import DvaLogo from "../../../public/Logo/1.png";
 
 const Navbar = () => {
@@ -13,11 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <header className="md:bg-first z-40 sticky top-6 ">
+    <header className="md:bg-first z-40 sticky top-0 ">
       <div className="px-4 md:px-24">
         {/* <!-- lg+ --> */}
         <nav className="flex items-center justify-between md:justify-center md:h-24">
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center flex-row">
             <a href="/" title="bentotailwind.com" className=" hidden md:flex">
               <Image className="w-auto md:h-12 lg:h-20" src={Logo} alt="BentoTailwind.com Logo" />
             </a>
@@ -87,7 +86,6 @@ const Navbar = () => {
             <button className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
               Sign In
             </button>
-            <Modal />
             {/* <button className="px-6 py-2 font-bold bg-yellow-200 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
               Sign Up
             </button> */}

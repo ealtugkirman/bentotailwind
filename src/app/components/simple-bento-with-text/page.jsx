@@ -59,7 +59,7 @@ export default MyComponent;
 `;
 
   return (
-    <div className="bg-gradient-dark flex">
+    <div className="bg-gradient-dark pb-32 flex">
       <div className="hidden lg:block lg:w-1/4 w-1/5">
         <Sidebar />
       </div>{" "}

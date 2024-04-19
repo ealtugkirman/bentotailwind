@@ -16,7 +16,7 @@ export default () => {
         },
         {
             name: "Premium Grids",
-            price: "$29 / forever",
+            price: "$19 / forever",
             features: [
                 "Copy and Paste",
                 "Beautifully Designed Premium Grids",
