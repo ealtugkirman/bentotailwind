@@ -17,7 +17,6 @@ export function PostPreview({
   title,
   coverImage,
   date,
-  // excerpt,
   author,
   slug,
 }: Props) {
