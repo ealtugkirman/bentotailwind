@@ -44,8 +44,6 @@ However, bento grids aren't without their drawbacks:
 
 ![how to create bento grids for your landing page](https://global-uploads.webflow.com/5e9dc792e1210c5325f7ebbc/64a860790546992621ac1a63_blog%20bento.png)
 
-
-
 ## Bento Grid Success: A Recipe for Usability
 
 Despite these potential pitfalls, bento grids can still be an effective tool. Here's how to make them work for you:

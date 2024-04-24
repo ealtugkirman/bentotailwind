@@ -8,6 +8,7 @@ type Props = {
   title: string;
   coverImage: string;
   date: string;
+  excerpt: string;
   author: Author;
   slug: string;
 };
@@ -16,6 +17,7 @@ export function HeroPost({
   title,
   coverImage,
   date,
+  excerpt,
   author,
   slug,
 }: Props) {
@@ -36,7 +38,7 @@ export function HeroPost({
           </div>
         </div>
         <div>
-          {/* <p className="text-md mr-12 text-gray-500 leading-relaxed pb-4">{excerpt}</p> */}
+          <p className="text-md hidden mr-12 text-gray-500 leading-relaxed pb-4">{excerpt}</p>
           <Avatar name={author.name} picture={author.picture} />
         </div>
       </div>

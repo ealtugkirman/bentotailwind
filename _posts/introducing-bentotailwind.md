@@ -29,4 +29,5 @@ When you look at all the other biggest libraries, you'll notice that they were a
 There isn’t a single Bento Grid Library platform in the market today. We want to change that. We need to stop designing grids like it's 2010 and rethink how grids can be done in 2024 and beyond. Designing Grids needs a revamp. A renovation. Modernized for the way we build frontend today.
 
 ## Join Usxxs
+
 We're creating something special here, and I can't wait to share it with you.
