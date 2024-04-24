@@ -7,7 +7,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
- const CodePreview = ({ component: Component, code }) => {
+const CodePreview = ({ component: Component, code }) => {
   return (
     <div className="w-full">
       <div className="h-96">
@@ -19,20 +19,21 @@ import "react-toastify/dist/ReactToastify.css";
   );
 };
 
- const SimpleBentoWithTextVisual = () => {
+const SimpleBentoWithTextVisual = () => {
   return (
-    <div className="grid h-96 gap-x-4 gap-y-0 grid-cols-3 grid-rows-3">
-      <div className="col-span-2 bg-yellow-900 rounded-md  row-span-1"></div>
-      <div className="col-span-1 bg-red-900 rounded-md  row-span-1">B</div>
-      <div className="col-span-3 text-center items-center justify-center flex text-white row-span-1">
-        <h1 className="text-6xl">BIG TEXT ABOUT YOUR WEBSITE</h1>
+    <div className="grid h-96 gap-x-4 gap-y-0 grid-cols-5 grid-rows-3">
+      <div className="col-span-3 bg-firstlight   row-span-1" />
+      <div className="col-span-2 bg-firstlight   row-span-1" />
+      <div className="col-span-5 text-center items-center justify-center flex text-white row-span-1">
+        <h1 className="text-6xl capitalize">
+          BIG TEXT FOR YOUR WEBSITE
+        </h1>
       </div>
-      <div className="col-span-1 bg-blue-900 rounded-md  row-span-1">d</div>
-      <div className="col-span-2 bg-purple-900 rounded-md  row-span-1">c</div>
+      <div className="col-span-2 bg-firstlight   row-span-1" />
+      <div className="col-span-3 bg-firstlight   row-span-1" />
     </div>
   );
 };
-
 
 const SimpleBentoWithText = () => {
   const Copied = () => {
@@ -96,7 +97,10 @@ export default MyComponent;
             </button>
           </CopyToClipboard>
         </div>
-        <CodePreview component={SimpleBentoWithTextVisual} code={componentCode} />
+        <CodePreview
+          component={SimpleBentoWithTextVisual}
+          code={componentCode}
+        />
       </div>
     </div>
   );

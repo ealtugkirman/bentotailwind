@@ -4,7 +4,7 @@ import GridCardList from "./_components/GridCardList"
 
 const page = () => {
   return (
-    <div className="flex pt-24 flex-row">
+    <div className="flex bg-first pt-24 flex-row">
       <div className="hidden lg:block lg:w-1/4 w-1/5" >
         <Sidebar />
       </div>

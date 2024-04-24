@@ -3,28 +3,20 @@ import GridCard from "./GridCard";
 
 const CardData = [
   {
-    title: "Simplec Bento Grid",
-    desc: "lorem",
-    img: "/laptop.png",
+    title: "Simple Bento Grid",
+    desc: "Basic grid for you to costumize as you like",
+    img: "/simple_bento_grid.png",
     href: "/components/simple-bento",
+    paid: false,
   },
   {
-    title: "Simplec Bento Grid",
-    desc: "lorem",
-    img: "/laptop.png",
+    title: "Simple Bento Grid With Text",
+    desc: "Basic grid for you to costumize as you like (but it has a text).",
+    img: "/simple_bento_grid_text.png",
     href: "/components/simple-bento",
-    // Assuming "first" is the path to your image
+    paid: false,
   },
-  {
-    title: "Simplec Bento Grid",
-    desc: "lorem",
-    img: "/laptop.png",
-    href: "/components/simple-bento",
-    // Assuming "first" is the path to your image
-  },
-  // Add more data objects here if needed
 ];
-
 const GridCardList = () => {
   return (
     <div className="">
@@ -47,6 +39,7 @@ const GridCardList = () => {
             desc={item.desc}
             image={item.img}
             href={item.href}
+            paid={item.paid} // Pass the paid prop here
           />
         ))}
       </div>
