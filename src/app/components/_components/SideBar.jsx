@@ -78,8 +78,8 @@ const SearchBox = ({ ...props }) => (
 
 const Sidebar = () => {
     const lessons = {
-        rustLessons: [{ name: "Simple Bento Grid", href: "/components/simple-bento" }, { name: "Simple Bento With Text", href: "/components/simple-bento-with-text" }, { name: "Basic Syntax and Data Types", href: "javascript:void(0)" }, { name: "Control Flow Statements", href: "javascript:void(0)" }, { name: "Functions and Modules", href: "javascript:void(0)" }, { name: "Ownership and Borrowing", href: "javascript:void(0)" }, { name: "Structs and Enums", href: "javascript:void(0)" }, { name: "Traits and Generics", href: "javascript:void(0)" }],
-        cargoLessons: [{ name: "Introduction to Cargo", href: "javascript:void(0)" }, { name: "Installing and Configuring Cargo", href: "javascript:void(0)" }, { name: "Basic Cargo Commands", href: "javascript:void(0)" }, { name: "Working with Dependencies", href: "javascript:void(0)" }, { name: "Rust Workspaces with Cargo", href: "javascript:void(0)" }, { name: "Ownership and Borrowing", href: "javascript:void(0)" }, { name: "Structs and Enums", href: "javascript:void(0)" }, { name: "Traits and Generics", href: "javascript:void(0)" },]
+        basicGrids: [{ name: "Simple Bento Grid", href: "/components/simple-bento" }, { name: "Simple Bento With Text", href: "/components/simple-bento-with-text" }, { name: "Coming Soon...", href: "/components/coming-soon" },],
+        bentoGrids: [{ name: "Coming Soon...", href: "/components/coming-soon" }]
     }
 
     return (
@@ -89,17 +89,17 @@ const Sidebar = () => {
                 <div className='text-[0.9rem] space-y-6'>
                     <>
                         <div>
-                            <Title>Rust Basics</Title>
-                            <SectionsList items={ lessons.rustLessons } />
+                            <Title>Basic Grids</Title>
+                            <SectionsList items={ lessons.basicGrids } />
                         </div>
                         <div>
-                            <Title>Cargo Basics</Title>
-                            <SectionsList items={ lessons.cargoLessons } />
+                            <Title>Bento Grids</Title>
+                            <SectionsList items={ lessons.bentoGrids } />
                         </div>
-                         <div>
+                         {/* <div>
                             <Title>al2 Basics</Title>
                             <SectionsList items={ lessons.cargoLessons } />
-                        </div>
+                        </div> */}
                     </>
                 </div>
             </nav>
