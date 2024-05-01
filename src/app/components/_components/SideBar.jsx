@@ -78,7 +78,7 @@ const SearchBox = ({ ...props }) => (
 
 const Sidebar = () => {
     const lessons = {
-        basicGrids: [{ name: "Simple Bento Grid", href: "/components/simple-bento" }, { name: "Simple Bento With Text", href: "/components/simple-bento-with-text" }, { name: "Coming Soon...", href: "/components/coming-soon" },],
+        basicGrids: [{ name: "Simple Bento Grid", href: "/components/simple-bento" }, { name: "Simple Bento With Text", href: "/components/simple-bento-with-text" }, { name: "Tailwind Responsive Grid", href: "/components/tailwind-responsive-grid" },],
         bentoGrids: [{ name: "Coming Soon...", href: "/components/coming-soon" }]
     }
 

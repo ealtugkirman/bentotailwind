@@ -6,7 +6,7 @@ const BentoFirst = ({ component: Component, code }) => {
   return (
     <div className="w-full">
       <div className="h-96">
-        <SyntaxHighlighter language="jsx" style={tomorrowNightBright}>
+        <SyntaxHighlighter language={javascript} style={tomorrowNightBright}>
           {code}
         </SyntaxHighlighter>
       </div>

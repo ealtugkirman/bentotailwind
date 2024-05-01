@@ -16,6 +16,13 @@ const CardData = [
     href: "/components/simple-bento",
     paid: false,
   },
+    {
+    title: "Tailwind Responsive Grid",
+    desc: "Basic Responsive Grid.",
+    img: "/responsive-grid.png",
+    href: "/components/tailwind-responsive-grid",
+    paid: false,
+  },
 ];
 const GridCardList = () => {
   return (
