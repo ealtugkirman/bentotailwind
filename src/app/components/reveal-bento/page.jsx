@@ -223,7 +223,7 @@ const Footer = () => {
   );
 };
 
-const SimpleBentoWithText = () => {
+const page = () => {
   const Copied = () => {
     toast.success("Copied");
   };
@@ -512,4 +512,4 @@ const Footer = () => {
   );
 };
 
-export default SimpleBentoWithText;
+export default page;
