@@ -23,10 +23,17 @@ const CardData = [
     href: "/components/tailwind-responsive-grid",
     paid: false,
   },
+     {
+    title: "Reveal Bento",
+    desc: "Revel Bento made by @tomisloading",
+    img: "/reveal-bento.png",
+    href: "/components/reveal-bento",
+    paid: false,
+  },
 ];
 const GridCardList = () => {
   return (
-    <div className="">
+    <div className="pb-32">
       <h1 className="text-lightgradient mb-4 font-bold text-3xl">
         {" "}
         BentoTailwind Components{" "}

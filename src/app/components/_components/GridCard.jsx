@@ -58,7 +58,7 @@ const GridCard = ({ title, desc, image, href, paid }) => {
           </div>
         )}
         <div className="m-12">
-          <Image width={500} height={500} src={image} alt={title} />
+          <Image width={1000} height={1000} src={image} alt={title} />
         </div>{" "}
         <h1 className="text-2xl text-lightgradient ml-8 mr-4font-bold">
           {title}
