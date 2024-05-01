@@ -25,7 +25,7 @@ const CodePreview = ({ component: Component, code }) => {
   );
 };
 
-export const RevealBento = () => {
+const RevealBento = () => {
   return (
     <div className="min-h-screen bg-zinc-900 px-4 py-12 text-zinc-50">
       <Logo />
@@ -506,7 +506,7 @@ const Footer = () => {
             </button>
           </CopyToClipboard>
         </div>
-        <CodePreview component={RevealBento} code={componentCode} />
+        <CodePreview code={componentCode} />
       </div>
     </div>
   );
