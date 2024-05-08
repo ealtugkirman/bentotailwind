@@ -4,8 +4,8 @@ import { tomorrowNightBright } from "react-syntax-highlighter/dist/esm/styles/hl
 
 const BentoFirst = ({ component: Component, code }) => {
   return (
-    <div className="w-full">
-      <div className="h-96">
+    <div className="w-full bg-first z-10">
+      <div className="h-full">
         <SyntaxHighlighter language={javascript} style={tomorrowNightBright}>
           {code}
         </SyntaxHighlighter>

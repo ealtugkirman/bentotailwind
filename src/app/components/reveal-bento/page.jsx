@@ -16,7 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 const CodePreview = ({ component: Component, code }) => {
   return (
     <div className="w-full">
-      <div className="h-96">
+      <div className="h-full bg-first">
         <SyntaxHighlighter language="javascript" style={tomorrowNightBright}>
           {code}
         </SyntaxHighlighter>
@@ -459,8 +459,8 @@ const Footer = () => {
 `;
 
   return (
-    <div className="bg-gradient-dark pb-32 flex">
-      <div className="hidden lg:block lg:w-1/4 w-1/5">
+    <div className="bg-first pb-32 flex">
+      <div className="hidden lg:block w-64">
         <Sidebar />
       </div>{" "}
       <div className="hidden lg:block lg:3/4 w-4/5 px-24 bg-first">

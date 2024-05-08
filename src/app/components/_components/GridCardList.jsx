@@ -30,6 +30,13 @@ const CardData = [
     href: "/components/reveal-bento",
     paid: false,
   },
+        {
+    title: "Fade In Grid",
+    desc: "Bento Grid with fade in animation",
+    img: "/animatedbento.png",
+    href: "/components/fadein-bento-grid",
+    paid: false,
+  },
 ];
 const GridCardList = () => {
   return (
