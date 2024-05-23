@@ -1,10 +1,16 @@
 import { Georama, Josefin_Sans, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Layout/Navbar";
-import siteMetadata from "../utils/siteMetaData"
-import { Analytics } from "@vercel/analytics/react"
-
-
+import siteMetadata from "../utils/siteMetaData";
+import { dark, neobrutalism } from "@clerk/themes";
+import { Analytics } from "@vercel/analytics/react";
+import {
+  ClerkProvider,
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 
 const pop = Poppins({
   subsets: ["latin"],
@@ -46,17 +52,29 @@ export const metadata = {
   },
 };
 
-
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={pop.className}>
-        <Navbar />
-        <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-red-500">WARNING!: Bento Tailwind library is not completed yet. This version is a prepublished version for development. </div>
-        <div>{ children }</div>
-        <Analytics />
-      </body>
-    </html>
+        <ClerkProvider
+          appearance={{
+            baseTheme: [ neobrutalism]
+          }}>
+        <body className={pop.className}>
+            <Navbar />
+            <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-red-500">
+              WARNING!: Bento Tailwind library is not completed yet. This
+              version is a prepublished version for development.{" "}
+            </div>
+            <div>{children}</div>
+          {/* <SignedOut>
+            <SignInButton />
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn> */}
+          <Analytics />
+        </body>
+    </ClerkProvider>
+      </html>
   );
 }

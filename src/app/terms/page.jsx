@@ -10,16 +10,15 @@ const page = () => {
           Terms and conditions
         </h3>
         <p className=" ">
-          Read about the terms and conditions for Flowbite. If you have a
+          Read about the terms and conditions for BentoTailwind. If you have a
           question pleasecontact usand we will help you out as soon as we can.
         </p>
       </div>
       <div className="space-y-6">
         <p className="mt-6">
           These Terms of Use constitute a legally binding agreement made between
-          you, whether personally or on behalf of an entity ("you") and Bergside
-          Inc. ("Company", "we", "us", or "our"), concerning your access to and
-          use of the https://flowbite.com website as well as any other media
+          you, whether personally or on behalf of an entity ("you") and Emre Altug Kırman Inc. ("Company", "we", "us", or "our"), concerning your access to and
+          use of the https://bentotailwind.com website as well as any other media
           form, media channel, mobile website or mobile application related,
           linked, or otherwise connected thereto (collectively, the "Site"). The
           Site provides an online marketplace for the following goods, products,
@@ -458,7 +457,7 @@ const page = () => {
           TO THE CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE
           WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL TIMES
           BE LIMITED TO THE LESSER OF THE AMOUNT PAID, IF ANY, BY YOU TO US OR
-          Bergside Inc. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT
+          Emre Altug Kırman Inc. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT
           ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION
           OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE
           ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY

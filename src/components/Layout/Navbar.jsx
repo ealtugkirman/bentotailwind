@@ -2,6 +2,12 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Logo from "../../../public/Logo/2.png";
+import {
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
 import DvaLogo from "../../../public/Logo/1.png";
 
 const Navbar = () => {
@@ -18,7 +24,11 @@ const Navbar = () => {
         <nav className="flex items-center justify-between md:justify-center md:h-24">
           <div className="flex-shrink-0 flex items-center flex-row">
             <a href="/" title="bentotailwind.com" className=" hidden md:flex">
-              <Image className="w-auto md:h-12 lg:h-20" src={Logo} alt="BentoTailwind.com Logo" />
+              <Image
+                className="w-auto md:h-12 lg:h-20"
+                src={Logo}
+                alt="BentoTailwind.com Logo"
+              />
             </a>
           </div>
 
@@ -83,9 +93,14 @@ const Navbar = () => {
             </a>
           </div>
           <div className="hidden md:flex space-x-4 items-center justify-center">
-            <button className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
-              Sign In
-            </button>
+            {/* <button className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]"> */}
+              <SignedOut className="px-6 py-2  bg-firstlight  w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]" >
+                <SignInButton />
+              </SignedOut>
+            {/* </button> */}
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
             {/* <button className="px-6 py-2 font-bold bg-yellow-200 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
               Sign Up
             </button> */}
