@@ -7,10 +7,6 @@ import Duyuru from "../components/Layout/Duyuru.jsx"
 import { Analytics } from "@vercel/analytics/react";
 import {
   ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
 } from "@clerk/nextjs";
 
 const pop = Poppins({
@@ -63,17 +59,11 @@ export default function RootLayout({ children }) {
         <body className={ pop.className }>
           <Duyuru />
             <Navbar />
-            <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-red-500">
+            <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-reddo">
               WARNING!: Bento Tailwind library is not completed yet. This
               version is a prepublished version for development.{" "}
             </div>
             <div>{children}</div>
-          {/* <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn> */}
           <Analytics />
         </body>
     </ClerkProvider>
