@@ -3,6 +3,34 @@ import GridCard from "./GridCard";
 
 const CardData = [
   {
+    title: "Github CoPilot Grid",
+    desc: "Bento Grid inspired by Github CoPilot",
+    img: "/github-copilot.png",
+    href: "/components/github-copilot-bento",
+    paid: false,
+  },
+  {
+    title: "Solid Bento Grid",
+    desc: "Bento Grid inspired by sprk.fi",
+    img: "/solid-bento.png",
+    href: "/components/solid-bento",
+    paid: true,
+  },
+  {
+    title: "Reveal Bento",
+    desc: "Revel Bento made by @tomisloading",
+    img: "/reveal-bento.png",
+    href: "/components/reveal-bento",
+    paid: false,
+  },
+  {
+    title: "Fade In Grid",
+    desc: "Bento Grid with fade in animation",
+    img: "/animatedbento.png",
+    href: "/components/fadein-bento-grid",
+    paid: false,
+  },
+  {
     title: "Simple Bento Grid",
     desc: "Basic grid for you to costumize as you like",
     img: "/simple_bento_grid.png",
@@ -16,33 +44,12 @@ const CardData = [
     href: "/components/simple-bento",
     paid: false,
   },
-    {
+  {
     title: "Tailwind Responsive Grid",
     desc: "Basic Responsive Grid.",
     img: "/responsive-grid.png",
     href: "/components/tailwind-responsive-grid",
     paid: false,
-  },
-     {
-    title: "Reveal Bento",
-    desc: "Revel Bento made by @tomisloading",
-    img: "/reveal-bento.png",
-    href: "/components/reveal-bento",
-    paid: false,
-  },
-        {
-    title: "Fade In Grid",
-    desc: "Bento Grid with fade in animation",
-    img: "/animatedbento.png",
-    href: "/components/fadein-bento-grid",
-    paid: false,
-  },
-          {
-    title: "Github CoPilot Grid",
-    desc: "Bento Grid inspired by Github CoPilot",
-    img: "/github-copilot.png",
-    href: "/components/github-copilot-bento",
-    paid: true,
   },
 ];
 const GridCardList = () => {

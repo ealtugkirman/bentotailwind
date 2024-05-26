@@ -58,7 +58,7 @@ const SectionsList = ({ items }) => (
 const Sidebar = () => {
     const lessons = {
         basicGrids: [{ name: "Simple Bento Grid", href: "/components/simple-bento" }, { name: "Simple Bento With Text", href: "/components/simple-bento-with-text" }, { name: "Tailwind Responsive Grid", href: "/components/tailwind-responsive-grid" },],
-        bentoGrids: [{ name: "Reveal Bento", href: "/components/reveal-bento" }, { name: "Fade In Grid", href: "/components/fadein-bento-grid" }, { name: "Github Copilot Grid", href: "/components/github-copilot-bento" }, { name: "Coming Soon...", href: "/components/coming-soon" }]
+        bentoGrids: [{ name: "Reveal Bento", href: "/components/reveal-bento" }, { name: "Fade In Grid", href: "/components/fadein-bento-grid" }, { name: "Github Copilot Grid", href: "/components/github-copilot-bento" },{ name: "Solid Bento Grid", href: "/components/solid-bento" }, { name: "Coming Soon...", href: "/components/coming-soon" }]
     }
 
     return (
