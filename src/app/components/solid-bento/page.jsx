@@ -29,7 +29,7 @@ const CodePreview = ({ component: Component, code }) => {
 
 const SolidBento = () => {
   return (
-    <div className="grid grid-cols-2 lg:grid-cols-4  text-center font-thin grid-rows-3 bg-solid p-8 gap-0">
+    <div className="grid grid-cols-2 grid-rows-3 lg:grid-cols-4  text-center font-thin  bg-solid p-8 gap-0">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-300/60 to-purple-400/60 flex text-sm col-span-1 row-span-1 justify-center items-center border border-white border-opacity-50 h-52 px-4">
         ONCHAIN COMPOSABILITY
       </div>

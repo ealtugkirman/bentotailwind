@@ -3,18 +3,26 @@ import GridCard from "./GridCard";
 
 const CardData = [
   {
-    title: "Github CoPilot Grid",
-    desc: "Bento Grid inspired by Github CoPilot",
-    img: "/github-copilot.png",
-    href: "/components/github-copilot-bento",
+    title: "Vercel Blog Grid",
+    desc: "Bento Grid Used By Vercel on Blog Section",
+    img: "/vercel-grid.png",
+    href: "/components/vercel-blog-grid",
     paid: false,
   },
+
   {
     title: "Solid Bento Grid",
     desc: "Bento Grid inspired by sprk.fi",
     img: "/solid-bento.png",
     href: "/components/solid-bento",
     paid: true,
+  },
+  {
+    title: "Github CoPilot Grid",
+    desc: "Bento Grid inspired by Github CoPilot",
+    img: "/github-copilot.png",
+    href: "/components/github-copilot-bento",
+    paid: false,
   },
   {
     title: "Reveal Bento",
