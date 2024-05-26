@@ -18,6 +18,7 @@ module.exports = {
         yamur: "#8a98fe",
         firstdark: '#0e0933',
         reddo: "#840b0b",
+        darkblue: "#0f0825",
       },
     },
   },
