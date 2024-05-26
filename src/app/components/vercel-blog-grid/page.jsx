@@ -295,7 +295,7 @@ const SolidBento = () => {
           />
           <div className="flex justify-between items-center mb-1">
             <h3 className="capitalize font-extrabold text-yellow-200 text-4xl">
-              Tailwind Responsive Grid
+              Vercel Blog Grid
             </h3>
             <p className="mr-4">Free</p>
           </div>

@@ -479,7 +479,7 @@ const Footer = () => {
           />
           <div className="flex justify-between items-center mb-1">
             <h3 className="capitalize font-extrabold text-yellow-200 text-4xl">
-              Tailwind Responsive Grid
+            Reveal Bento Grid
             </h3>
             <p>Free</p>
           </div>

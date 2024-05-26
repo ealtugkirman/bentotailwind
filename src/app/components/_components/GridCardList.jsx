@@ -31,6 +31,13 @@ const CardData = [
     href: "/components/reveal-bento",
     paid: false,
   },
+   {
+    title: "Branding Grid Template",
+    desc: "A grid that can be used in branding",
+    img: "/branding-template.png",
+    href: "/components/branding-grid-template",
+    paid: false,
+  },
   {
     title: "Fade In Grid",
     desc: "Bento Grid with fade in animation",

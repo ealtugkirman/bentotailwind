@@ -63,6 +63,11 @@ const Sidebar = () => {
       { name: "Github Copilot Grid", href: "/components/github-copilot-bento" },
       { name: "Solid Bento Grid", href: "/components/solid-bento" },
       { name: "Vercel Blog Grid", href: "/components/vercel-blog-grid" },
+      {
+        name: "Branding Grid Template",
+        href: "/components/branding-grid-template",
+      },
+
       { name: "Coming Soon...", href: "/components/coming-soon" },
     ],
   };
