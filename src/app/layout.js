@@ -5,6 +5,7 @@ import siteMetadata from "../utils/siteMetaData";
 import { dark, neobrutalism } from "@clerk/themes";
 import Duyuru from "../components/Layout/Duyuru.jsx"
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import {
   ClerkProvider,
 } from "@clerk/nextjs";
@@ -63,7 +64,8 @@ export default function RootLayout({ children }) {
               WARNING!: Bento Tailwind library is not completed yet. This
               version is a prepublished version for development.{" "}
             </div>
-            <div>{children}</div>
+          <div>{ children }</div>
+          <SpeedInsights />
           <Analytics />
         </body>
     </ClerkProvider>
