@@ -14,7 +14,7 @@ export default function Example() {
   const [agreed, setAgreed] = useState(false);
 
   return (
-    <div className="isolate bg-first px-6 py-24 sm:py-32 lg:px-8">
+    <div className="isolate bg-darkblue px-6 py-24 sm:py-32 lg:px-8">
       <div
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
         aria-hidden="true">

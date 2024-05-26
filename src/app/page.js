@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <Ideas />
       <Features />
-      <div className="mx-32 py-32" >
+      <div className="lg:mx-32 py-32" >
         <GridCardList />
 
       </div>
