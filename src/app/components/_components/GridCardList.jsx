@@ -38,6 +38,13 @@ const CardData = [
     href: "/components/branding-grid-template",
     paid: false,
   },
+   {
+    title: "Font Demo Grid",
+    desc: "A grid that can be use for demo font preview",
+    img: "/demo-grid-2.png",
+    href: "/components/demo-grid-font",
+    paid: false,
+  },
   {
     title: "Fade In Grid",
     desc: "Bento Grid with fade in animation",
