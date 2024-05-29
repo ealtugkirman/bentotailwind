@@ -58,12 +58,12 @@ export default function RootLayout({ children }) {
             baseTheme: [ neobrutalism]
           }}>
         <body className={ pop.className }>
-          <Duyuru />
+          {/* <Duyuru /> */}
             <Navbar />
-            <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-reddo">
+            {/* <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-reddo">
               WARNING!: Bento Tailwind library is not completed yet. This
               version is a prepublished version for development.{" "}
-            </div>
+            </div> */}
           <div>{ children }</div>
           <SpeedInsights />
           <Analytics />
