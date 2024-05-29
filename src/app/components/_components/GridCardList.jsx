@@ -38,6 +38,13 @@ const CardData = [
     href: "/components/branding-grid-template",
     paid: false,
   },
+     {
+    title: "Modular Grid",
+    desc: "Modular grid for colorful designs",
+    img: "/modular-grid.png",
+    href: "/components/modular-grid",
+    paid: false,
+  },
    {
     title: "Font Demo Grid",
     desc: "A grid that can be use for demo font preview",
