@@ -30,15 +30,15 @@ const ModularGrid = () => {
       <div className="col-span-1 flex text-6xl border-orange-500 text-orange-500 rounded-full border-2 items-center justify-center ">
         <FaArrowDown />
       </div>
-      <div className="col-span-2 rounded-full  border-2 border-purple-500 text-4xl text-purple-500 flex items-center justify-center">
+      <div className="col-span-2 rounded-full  border-2 border-purple-500 text-2xl lg:text-3xl xl:text-4xl text-purple-500 flex items-center justify-center">
         explore
       </div>
-      <div className="col-span-2 rounded-full bg-purple-500 text-white flex text-4xl items-center justify-center ">
+      <div className="col-span-2 rounded-full bg-purple-500 text-white flex text-2xl lg:text-3xl xl:text-4xl items-center justify-center ">
         landings
       </div>
       <div className="col-span-1 rounded-full bg-yellow-600 "></div>
       <div className="col-span-3 rounded-full border-2 border-gray-400 "></div>
-      <div className="col-span-2 rounded-full flex items-center justify-center text-4xl text-white bg-teal-500 ">
+      <div className="col-span-2 rounded-full flex items-center justify-center text-2xl lg:text-3xl xl:text-4xl text-white bg-teal-500 ">
         web mags
       </div>
       <div className="col-span-1 rounded-full items-center border-2 border-blue-900 text-blue-900 justify-center flex  text-6xl ">
@@ -49,7 +49,7 @@ const ModularGrid = () => {
       <div className="col-span-1 flex text-6xl border-gray-500 text-gray-500 rounded-full border-2 items-center justify-center ">
         <FaArrowDown />
       </div>
-      <div className="col-span-3 rounded-full border-2 border-orange-500 text-orange-500 flex items-center justify-center text-4xl">
+      <div className="col-span-3 rounded-full border-2 border-orange-500 text-orange-500 flex items-center justify-center text-2xl lg:text-3xl xl:text-4xl">
         digital editorials
       </div>
       <div className="col-span-2 rounded-full  bg-blue-500 flex items-center justify-center  ">
@@ -70,7 +70,7 @@ const ModularGrid = () => {
           />
         </svg>
       </div>
-      <div className="col-span-2  text-4xl bg-blue-500 text-white rounded-full flex items-center justify-center">
+      <div className="col-span-2  text-2xl lg:text-3xl xl:text-4xl bg-blue-500 text-white rounded-full flex items-center justify-center">
         voyage
       </div>
       <div className="col-span-3 grid grid-cols-2 gap-4">
@@ -97,15 +97,15 @@ const page = () => {
       <div className="col-span-1 flex text-6xl border-orange-500 text-orange-500 rounded-full border-2 items-center justify-center ">
         <FaArrowDown />
       </div>
-      <div className="col-span-2 rounded-full  border-2 border-purple-500 text-4xl text-purple-500 flex items-center justify-center">
+      <div className="col-span-2 rounded-full  border-2 border-purple-500 text-2xl lg:text-3xl xl:text-4xl text-purple-500 flex items-center justify-center">
         explore
       </div>
-      <div className="col-span-2 rounded-full bg-purple-500 text-white flex text-4xl items-center justify-center ">
+      <div className="col-span-2 rounded-full bg-purple-500 text-white flex text-2xl lg:text-3xl xl:text-4xl items-center justify-center ">
         landings
       </div>
       <div className="col-span-1 rounded-full bg-yellow-600 "></div>
       <div className="col-span-3 rounded-full border-2 border-gray-400 "></div>
-      <div className="col-span-2 rounded-full flex items-center justify-center text-4xl text-white bg-teal-500 ">
+      <div className="col-span-2 rounded-full flex items-center justify-center text-2xl lg:text-3xl xl:text-4xl text-white bg-teal-500 ">
         web mags
       </div>
       <div className="col-span-1 rounded-full items-center border-2 border-blue-900 text-blue-900 justify-center flex  text-6xl ">
@@ -116,7 +116,7 @@ const page = () => {
       <div className="col-span-1 flex text-6xl border-gray-500 text-gray-500 rounded-full border-2 items-center justify-center ">
         <FaArrowDown />
       </div>
-      <div className="col-span-3 rounded-full border-2 border-orange-500 text-orange-500 flex items-center justify-center text-4xl">
+      <div className="col-span-3 rounded-full border-2 border-orange-500 text-orange-500 flex items-center justify-center text-2xl lg:text-3xl xl:text-4xl">
         digital editorials
       </div>
       <div className="col-span-2 rounded-full  bg-blue-500 flex items-center justify-center  ">
@@ -137,7 +137,7 @@ const page = () => {
           />
         </svg>
       </div>
-      <div className="col-span-2  text-4xl bg-blue-500 text-white rounded-full flex items-center justify-center">
+      <div className="col-span-2  text-2xl lg:text-3xl xl:text-4xl bg-blue-500 text-white rounded-full flex items-center justify-center">
         voyage
       </div>
       <div className="col-span-3 grid grid-cols-2 gap-4">
@@ -168,7 +168,7 @@ const page = () => {
             theme="colored"
           />
           <div className="flex justify-between items-center mb-1">
-            <h3 className="capitalize font-extrabold text-yellow-200 text-4xl">
+            <h3 className="capitalize font-extrabold text-yellow-200 text-2xl lg:text-3xl xl:text-4xl">
               Modular Grid
             </h3>
             <p className="mr-4">Free</p>
