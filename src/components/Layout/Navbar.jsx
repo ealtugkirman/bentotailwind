@@ -64,13 +64,6 @@ const Navbar = () => {
               Components{" "}
             </a>
             <a
-              href="/blog"
-              title=""
-              className="text-md    transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
-              {" "}
-              Blog{" "}
-            </a>
-            <a
               href="/pricing"
               title=""
               className="text-md   transition-all duration-200  hover:text-opacity-70 focus:text-opacity-70">
@@ -118,15 +111,6 @@ const Navbar = () => {
                 {" "}
                 Components{" "}
               </a>
-
-              <a
-                href="/blog"
-                title=""
-                className="py-2     transition-all duration-200 focus:text-opacity-70">
-                {" "}
-                Blog{" "}
-              </a>
-
               <a
                 href="/pricing"
                 title=""
