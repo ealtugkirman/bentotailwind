@@ -56,8 +56,8 @@ const Sidebar = () => {
         name: "Tailwind Responsive Grid",
         href: "/components/tailwind-responsive-grid",
       },
-            { name: "Font Demo Grid", href: "/components/demo-grid-font" },
-
+      { name: "Font Demo Grid", href: "/components/demo-grid-font" },
+      { name: "Modular Grid", href: "/components/modular-grid" },
     ],
     bentoGrids: [
       { name: "Reveal Bento", href: "/components/reveal-bento" },
