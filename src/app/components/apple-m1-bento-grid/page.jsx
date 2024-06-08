@@ -10,6 +10,7 @@ import CopyToClipboard from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
 import { hybrid } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import "react-toastify/dist/ReactToastify.css";
+import { BsFillLightningChargeFill } from "react-icons/bs";
 
 const CodePreview = ({ component: Component, code }) => {
   return (
@@ -27,7 +28,7 @@ const AppleM1 = () => {
   return (
     <div className="grid grid-rows-8 gap-3 bg-dark h-1/2 grid-cols-12">
       <div className="flex items-center justify-between flex-col col-span-3 row-span-2 rounded-lg bg-gray-500/10 ">
-        <div/>
+        <div />
         <h1 className="text-3xl border px-6 py-2 mt-3 text-lightgradient border-purple-500 rounded-2xl ">
           ProRes
         </h1>
@@ -35,8 +36,20 @@ const AppleM1 = () => {
           Encode and Decode
         </p>
       </div>
-      <div className="col-span-1 row-span-2 rounded-lg bg-gray-500/10 "></div>
-      <div className="col-span-3 row-span-1 rounded-lg bg-gray-500/10 "></div>
+      <div
+        className="col-span-1 flex flex-col items-center justify-between
+       row-span-2 rounded-lg bg-gray-500/10 ">
+        <div />
+        <div className="text-4xl ">
+          <BsFillLightningChargeFill />
+        </div>{" "}
+        <p className="text-lightgradient text-[8px] p-1">ThunderBolt 4</p>
+      </div>
+      <div className="col-span-3 row-span-1 rounded-lg bg-gray-500/10 flex">
+        <p className="text-xl flex mx-auto items-center justify-center clear-start font-semibold text-lightgradient ">
+          5 nm process
+        </p>
+      </div>
       <div className="col-span-1 row-span-1 rounded-lg bg-gray-500/10 "></div>
       <div className="col-span-4 row-span-2 rounded-lg bg-gray-500/10 "></div>
       <div className="col-span-4 row-span-6 rounded-lg bg-gray-500/10 "></div>
