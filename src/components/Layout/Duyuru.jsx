@@ -29,7 +29,7 @@ const Duyuru = () => {
             {userCount !== null ? (
               <span>{` Remaining Seat: ${95 - userCount}`}</span>
             ) : (
-              <span>Loading...</span>
+              <span>Checking for empty seats...</span>
             )}
           </div>
           <button className="px-3 ml-4 py-1 font-medium bg-yellow-400 text-firstdark w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
