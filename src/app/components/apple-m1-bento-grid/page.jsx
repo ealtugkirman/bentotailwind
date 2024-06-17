@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import m1 from "./m1.png"
 import Image from "next/image";
 import Sidebar from "../_components/SideBar";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -40,19 +40,32 @@ const AppleM1 = () => {
         className="col-span-1 flex flex-col items-center justify-between
        row-span-2 rounded-lg bg-gray-500/10 ">
         <div />
-        <div className="text-4xl ">
+        <div className="text-5xl ">
           <BsFillLightningChargeFill />
         </div>{" "}
-        <p className="text-lightgradient text-[8px] p-1">ThunderBolt 4</p>
+        <p className=" text-[8px] p-1">ThunderBolt 4</p>
       </div>
       <div className="col-span-3 row-span-1 rounded-lg bg-gray-500/10 flex">
-        <p className="text-xl flex mx-auto items-center justify-center clear-start font-semibold text-lightgradient ">
+        <p className="text-xl  flex mx-auto items-center justify-center clear-start font-semibold text-lightgradient ">
           5 nm process
         </p>
       </div>
-      <div className="col-span-1 row-span-1 rounded-lg bg-gray-500/10 "></div>
-      <div className="col-span-4 row-span-2 rounded-lg bg-gray-500/10 "></div>
-      <div className="col-span-4 row-span-6 rounded-lg bg-gray-500/10 "></div>
+      <div className="col-span-1 row-span-1 rounded-lg bg-gray-500/10 ">
+        <div className="text-md text-lightgradient mt-2 text-center ">
+          <p  >114 Billion</p>
+        </div>{" "}
+        <p className=" text-[8px] text-center p-1">Transistors</p>
+      </div>
+      <div className="col-span-4 item-center py-2 justify-between flex-col  flex text-center row-span-2 rounded-lg bg-gray-500/10 ">
+        <p className="text-[8px] " >silicon interposer with</p>
+        <h3 className="text-6xl font-semibold text-lightgradient" >2.5TB/s</h3>
+        <p className="text-[8px] " >interprocessor bandwidth</p>
+      </div>
+      <div className="col-span-4 row-span-6 flex p-6 items-center justify-center rounded-lg bg-gray-500/10 ">
+        <div className="" >
+           <Image src={m1} width={500} height={500} alt="" />
+     </div>
+      </div>
       <div className="col-span-4 row-span-2 rounded-lg bg-gray-500/10 "></div>
       <div className="col-span-4 row-span-4 rounded-lg bg-gray-500/10 "></div>
       <div className="col-span-2 row-span-3 rounded-lg bg-gray-500/10 "></div>
