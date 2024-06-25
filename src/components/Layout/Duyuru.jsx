@@ -8,7 +8,7 @@ const Duyuru = () => {
           <strong>free for the first 100 users. </strong>
           <br />
           <div>
-              <span>Remaining Seat: 75</span>
+              <span>Remaining Seat: 73</span>
           </div>
           <button className="px-3 ml-4 py-1 font-medium bg-yellow-400 text-firstdark w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
             <a href="https://accounts.bentotailwind.com/sign-up">Sign Up Now</a>
