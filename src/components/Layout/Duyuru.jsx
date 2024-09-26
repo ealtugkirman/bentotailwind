@@ -4,9 +4,9 @@ const Duyuru = () => {
     <div className="bg-yellow-200">
       <div className="max-w-screen-xl mx-auto px-4 py-3 text-firstdark sm:text-center md:px-8">
         <div className="text-sm">
-          BentoTailwind has reached
+          BentoTailwind has reached 
           <strong>100 users. 🥳🥳🥳</strong>
-         
+         <br/>
           <button className="px-3 ml-4 py-1 font-medium bg-yellow-400 text-firstdark w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">
             <a href="https://accounts.bentotailwind.com/sign-up">Sign Up Now</a>
           </button>
