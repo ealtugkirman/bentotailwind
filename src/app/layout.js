@@ -4,12 +4,10 @@ import Navbar from "../components/Layout/Navbar";
 import siteMetadata from "../utils/siteMetaData";
 import { dark, neobrutalism } from "@clerk/themes";
 import GoogleAnalytics from "../GoogleAnalytics";
-import Duyuru from "../components/Layout/Duyuru.jsx"
+import Duyuru from "../components/Layout/Duyuru.jsx";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next"
-import {
-  ClerkProvider,
-} from "@clerk/nextjs";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const pop = Poppins({
   subsets: ["latin"],
@@ -54,23 +52,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        <ClerkProvider
-          appearance={{
-            baseTheme: [ neobrutalism]
-        } }>
-        < GoogleAnalytics />
-        <body className={ pop.className }>
+      <ClerkProvider
+        appearance={{
+          baseTheme: [neobrutalism],
+        }}>
+        <GoogleAnalytics />
+        <body className={pop.className}>
           <Duyuru />
-            <Navbar />
-            <div className=" w-full fixed z-30 hidden lg:block top-24 font-semibold text-center items-center justify-center bg-reddo">
-              WARNING!: Bento Tailwind library is not completed yet. This
-              version is a prepublished version for development.{" "}
-            </div>
-          <div>{ children }</div>
+          <Navbar />
+          <div>{children}</div>
           <SpeedInsights />
           <Analytics />
         </body>
-    </ClerkProvider>
-      </html>
+      </ClerkProvider>
+    </html>
   );
 }

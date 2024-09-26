@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="md:bg-first z-40 sticky top-0 ">
+    <header className="bg-first z-40 sticky top-0 ">
       <div className="px-4 md:px-24">
         {/* <!-- lg+ --> */}
         <nav className="flex items-center justify-between md:justify-center md:h-24">
@@ -35,7 +35,7 @@ const Navbar = () => {
           <button
             type="button"
             onClick={toggleMobileMenu}
-            className="inline-flex p-2 z-40 transition-all duration-200 rounded-md md:hidden focus:bg-gray-800 hover:bg-second">
+            className="inline-flex p-2 z-40 text-white transition-all duration-200 rounded-md md:hidden focus:bg-first">
             <svg
               className="w-6 h-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ const Navbar = () => {
 
         {/* <!-- xs to lg --> */}
         {isMobileMenuOpen && (
-          <nav className="min-h-screen bg-black z-40 text-center  md:hidden">
+          <nav className="min-h-screen bg-first text-white z-40 text-center  md:hidden">
             <nav className="flex flex-col items-center space-y-2">
               <a
                 href="/components"

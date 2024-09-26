@@ -7,7 +7,7 @@ import Cta from "../components/Cta";
 import GridCardList from "./components/_components/GridCardList";
 export default function Home() {
   return (
-    <main className="bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-darkgradient">
+    <main className="bg-darkgradient">
       <Hero />
       <Ideas />
       <Features />
